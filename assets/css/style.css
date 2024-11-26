@@ -12,7 +12,7 @@
 	box-sizing:border-box;
 }
 body{
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Outfit', sans-serif;
 	font-size:16px;
 	color: #676a81;
 	background: #fff;
@@ -32,7 +32,7 @@ h1,h2,h3,h4,h5,h6 {
 	margin: 0;
 	color:#43485c;
     font-size: 16px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Outfit', sans-serif;
 	text-transform: capitalize;
 }
 p {
@@ -40,7 +40,7 @@ p {
 	line-height:1.8;
 	color:#43485c;
 	font-size:14px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Outfit', sans-serif;
 }
 img{border:none;max-width:100%; height:auto;}
 ul{
