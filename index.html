@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feny Rahmasari | Android Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="header-info">
+      <h1>Feny Rahmasari</h1>
+      <p class="job-title">Android Developer</p>
+      <div class="contact-grid">
+        <a href="mailto:fenyyrahma@gmail.com" class="contact-item">
+          <i class="fa-solid fa-envelope"></i> fenyyrahma@gmail.com
+        </a>
+        <a href="https://wa.me/6289605945703" class="contact-item">
+          <i class="fa-brands fa-whatsapp"></i> +62 896 0594 5703
+        </a>
+        <a href="https://linkedin.com/in/feny-rs" target="_blank" class="contact-item">
+          <i class="fa-brands fa-linkedin"></i> linkedin.com/in/feny-rs
+        </a>
+        <a href="https://github.com/Feny-rs" target="_blank" class="contact-item">
+          <i class="fa-brands fa-github"></i> github.com/Feny-rs
+        </a>
+      </div>
+    </div>
+    <button id="themeToggle" class="theme-btn" aria-label="Toggle Theme">🌙</button>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-card">
+      <p>Android Developer with <b>4+ years of experience</b> building production-ready mobile applications. 
+        Expertise in <b>Kotlin, Jetpack Compose,</b> and modern architecture (MVVM/KMP). 
+        Proven track record in integrating IoT systems and Machine Learning solutions. 
+        Strong focus on code quality, performance optimization, and scalable mobile ecosystems.
+      </p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Work Experience</h2>
+    <div class="stepper">
+      <div class="step">
+        <div class="exp-header">
+          <h3>External Lecturer</h3>
+          <span class="exp-date">Sept 2025 – Feb 2026</span>
+        </div>
+        <span class="company">Politeknik Negeri Semarang</span>
+        <ul>
+          <li>Taught Applied Engineering Mathematics for 1st-semester students.</li>
+          <li>Developed comprehensive teaching materials and student assessments.</li>
+        </ul>
+      </div>
+      <div class="step">
+        <div class="exp-header">
+          <h3>Kotlin Developer</h3>
+          <span class="exp-date">Oct 2023 – Jun 2025</span>
+        </div>
+        <span class="company">PT Teknologi Sukses Terus (SweetEscape)</span>
+        <ul>
+          <li>Refactored legacy Android codebases into clean architecture.</li>
+          <li>Migrated Data & Domain layers to <b>Kotlin Multiplatform (KMP)</b>.</li>
+          <li>Reduced app crash rates by fixing bugs based on Crashlytics insights.</li>
+        </ul>
+        </div>
+        <div class="step">
+          <div class="exp-header">
+            <h3>Mobile Developer</h3>
+            <span class="exp-date">Dec 2021 – Oct 2023</span>
+          </div>
+          <span class="company">PT Infosys Solusi Terpadu</span>
+          <ul>
+            <li>Developed core features for the New BTN Mobile Banking application.</li>
+            <li>Integrated secure payment gateways and property search functionalities.</li>
+          </ul>
+        </div>
+    </div>
+  </section>
+
+ <section id="portfolio">
+  <h2>Featured Projects</h2>
+  <div class="portfolio-slider">
+    <div class="portfolio-track" id="portfolioTrack">
+
+      <a href="https://feny-rs.github.io/privacy-policy.html" class="portfolio-card">
+        <div class="portfolio-thumb"><img src="portfolios/seed_snap.png" alt="SeedSnap"></div>
+       <div class="portfolio-body">
+        <h3>SeedSnap</h3>
+        <div class="tech-tags">
+          <span class="tag">Kotlin</span>
+          <span class="tag">ML Kit</span>
+          <span class="tag">CameraX</span>
+        </div>
+        <p>Real-time rice seed quality identification using machine learning models.</p>
+       </div>
+      </a>
+
+      <a href="https://play.google.com/store/apps/details?id=com.sweetescape.android&pcampaignid=web_share" class="portfolio-card">
+        <div class="portfolio-thumb"><img src="portfolios/sweetescape_client.png" alt="SweetEscape"></div>
+        <div class="portfolio-body">
+          <h3>SweetEscape App</h3>
+          <div class="tech-tags">
+            <span class="tag">KMP</span>
+            <span class="tag">MVVM</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">Dagger</span>
+            <span class="tag">Koin</span>
+            <span class="tag">Jetpack Compose</span>
+            <span class="tag">Unit Testing</span>
+          </div>
+          <p>Global photography platform connecting users with professional photographers.</p>
+        </div>
+      </a>
+
+      <a href="https://play.google.com/store/apps/details?id=com.sweetescape.photographer&pcampaignid=web_share" class="portfolio-card">
+        <div class="portfolio-thumb"><img src="portfolios/sweetescape_photographer.png" alt="SweetEscape for Photographers"></div>
+        <div class="portfolio-body">
+          <h3>SweetEscape App for Photographers</h3>
+          <div class="tech-tags">
+            <span class="tag">Android Java/Kotlin</span>
+            <span class="tag">MVVM</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">Dependency Injection</span>
+            <span class="tag">Jetpack Compose</span>
+            <span class="tag">Unit Testing</span>
+          </div>
+          <p>Global photography platform connecting photographers with clients.</p>
+        </div>
+      </a>
+
+      <a href="https://www.btn.co.id/id/About" class="portfolio-card">
+        <div class="portfolio-thumb"><img src="portfolios/btn.png" alt="BTN Mobile"></div>
+        <div class="portfolio-body">
+          <h3>New Mobile BTN</h3>
+          <div class="tech-tags">
+            <span class="tag">Android Java/Kotlin</span>
+            <span class="tag">View Binding</span>
+            <span class="tag">MVVM</span>
+            <span class="tag">Retrofit</span>
+            <span class="tag">Firebase</span>
+          </div>
+          <p>Banking application for secure financial transactions and property management.</p>
+        </div>
+      </a>
+
+      <a href="https://play.google.com/store/apps/details?id=com.omahiot.hab&pcampaignid=web_share" class="portfolio-card">
+        <div class="portfolio-thumb"><img src="portfolios/hab.png" alt="HAB"></div>
+        <div class="portfolio-body">
+          <h3>HAB</h3>
+          <div class="tech-tags">
+            <span class="tag">Android Java</span>
+            <span class="tag">IoT</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">Webview</span>
+          </div>
+          <p>An internal Android application used to support company business operations.</p>
+        </div>
+      </a>
+
+      <a href="#" class="portfolio-card">
+        <div class="portfolio-thumb"><img src="portfolios/big-apps.png" alt="Omah IoT"></div>
+        <div class="portfolio-body">
+          <h3>Big Apps Omah IoT</h3>
+          <div class="tech-tags">
+            <span class="tag">Android Java</span>
+            <span class="tag">IoT</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">Webview</span>
+          </div>
+          <p>An IoT platform for monitoring and managing connected devices in a centralized system.</p>
+        </div>
+      </a>
+
+      <a href="#" class="portfolio-card">
+        <div class="portfolio-thumb"><img src="portfolios/tank-sediment.png" alt="Tank Sedimen"></div>
+        <div class="portfolio-body">
+          <h3>Tank Sedimen</h3>
+          <div class="tech-tags">
+            <span class="tag">Android Java</span>
+            <span class="tag">IoT</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">Webview</span>
+          </div>
+          <p>An IoT-based application for monitoring sediment tank conditions in real time.</p>
+        </div>
+      </a>
+
+      <a href="https://play.google.com/store/apps/details?id=com.tim.moko&pcampaignid=web_share" class="portfolio-card">
+        <div class="portfolio-thumb"><img src="portfolios/moko.png" alt="Moko"></div>
+        <div class="portfolio-body">
+          <h3>Moko</h3>
+          <div class="tech-tags">
+            <span class="tag">Android Java</span>
+            <span class="tag">IoT</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">Webview</span>
+          </div>
+          <p>An Android application for real-time monitoring of IoT devices and sensors.</p>
+        </div>
+      </a>
+
+      <a href="https://play.google.com/store/apps/details?id=com.omahiot.turusasri&pcampaignid=web_share" class="portfolio-card">
+        <div class="portfolio-thumb"><img src="portfolios/tirta_turus_asri.png" alt="MockA"></div>
+        <div class="portfolio-body">
+          <h3>Tirta Turus Asri</h3>
+          <div class="tech-tags">
+            <span class="tag">Android Java</span>
+            <span class="tag">IoT</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">Webview</span>
+          </div>
+          <p>A smart agriculture application designed to monitor and manage home watering systems.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="slider-nav">
+    <button class="nav-btn" onclick="slidePrev()"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="nav-btn" onclick="slideNext()"><i class="fa-solid fa-chevron-right"></i></button>
+  </div>
+</section>
+  <section>
+    <h2>Education</h2>
+    <div class="grid">
+      <div class="box edu-card">
+        <img src="logo_polines.png" class="edu-logo" alt="Polines">
+        <div>
+          <strong>Master Applied Science</strong>
+          <br>Telecommunication Engineering<br>Politeknik Negeri Semarang<br>
+          <small>2021 – 2025 • GPA: 3.78/4.00</small><br>
+          <small><strong>Thesis: Machine Learning for Rice Seed Classification</strong></small>
+        </div>
+      </div>
+      <div class="box edu-card">
+        <img src="logo_polines.png" class="edu-logo" alt="Polines">
+        <div>
+          <strong>Bachelor Applied Science</strong>
+          <br>Telecommunication Engineering
+          <br>Politeknik Negeri Semarang
+          <br><small>2016 – 2020 • GPA: 3.41/4.00</small>
+          <br><small><strong>Final Project: Android-based Smart Agriculture and Smart Farm Monitoring System</strong></small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Publication & Conference</h2>
+    <div class="grid">
+
+      <!-- 2025 -->
+      <div class="box">
+        <strong>First Author – International Journal</strong>
+        <p>
+          Comparative Evaluation of Machine Learning Models for Rice Seed Identification<br>
+          <em>International Journal on Advanced Science, Engineering and Information Technology (IJASEIT)</em>
+        </p>
+        <a href="https://ijaseit.insightsociety.org/index.php/ijaseit/article/view/20331" target="_blank" class="action-btn"><i class="fa-solid fa-book-open"></i> View Journal</a>
+      </div>
+
+      <!-- 2024 -->
+      <div class="box">
+        <strong>Conference Presenter (2024)</strong>
+        <p>
+          ICIST 2024 – Comparative Evaluation of ML Models for Rice Seed Identification
+        </p>
+        <span style="font-size:.9rem;opacity:.85;display:block;margin-bottom:6px">Certified Presenter</span>
+        <a href="certificate/CERTIFICATE ICIST 2024.pdf" target="_blank" class="action-btn"><i class="fa-solid fa-file-pdf"></i> View Certificate</a>
+      </div>
+
+      <!-- Earlier -->
+      <div class="box">
+        <strong>Second Author – National Journal</strong>
+        <p>
+          Android-based Smart Agriculture Monitoring Systems<br>
+          <em>JNTETI – Universitas Gadjah Mada</em>
+        </p>
+        <a href="https://jurnal.ugm.ac.id/v3/JNTETI/article/view/3379" target="_blank" class="action-btn"><i class="fa-solid fa-book-open"></i> View Journal</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+  <h2>Skills</h2>
+
+  <p class="skill-summary">
+    Android Engineer with 4+ years experience in building scalable mobile apps,
+    integrating IoT systems, and applying machine learning solutions.
+  </p>
+
+  <div class="grid">
+
+    <!-- Programming -->
+    <div class="box skill-card">
+      <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+
+      <div class="skill-content">
+        <strong>Programming</strong>
+
+        <div class="skill-tags">
+          <span>Kotlin</span>
+          <span>Java</span>
+          <span>Python</span>
+          <span>JavaScript</span>
+          <span>C++</span>
+          <span>PHP</span>
+        </div>
+
+        <ul class="skill-list">
+          <li><b>Kotlin</b> — 4+ years, Android production apps</li>
+          <li><b>Python</b> — machine learning & data processing</li>
+          <li><b>Java</b> — enterprise & legacy systems</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Mobile -->
+    <div class="box skill-card">
+      <div class="skill-icon"><i class="fa-brands fa-android"></i></div>
+
+      <div class="skill-content">
+        <strong>Mobile Development</strong>
+
+        <div class="skill-tags">
+          <span>Jetpack Compose</span>
+          <span>MVVM</span>
+          <span>Retrofit</span>
+          <span>Firebase</span>
+          <span>Dagger</span>
+          <span>Koin</span>
+        </div>
+
+        <ul class="skill-list">
+          <li><b>Android (Kotlin)</b> — scalable production apps</li>
+          <li><b>Architecture</b> — MVVM, MVP</li>
+          <li><b>Firebase</b> — Auth, Firestore, Crashlytics</li>
+          <li><b>Kotlin Multiplatform</b> — cross-platform exploration</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Other -->
+    <div class="box skill-card">
+      <div class="skill-icon"><i class="fa-solid fa-microchip"></i></div>
+
+      <div class="skill-content">
+        <strong>Other Technical</strong>
+
+        <div class="skill-tags">
+          <span>Machine Learning</span>
+          <span>IoT</span>
+          <span>Figma</span>
+          <span>Photoshop</span>
+        </div>
+
+        <ul class="skill-list">
+          <li><b>Machine Learning</b> — classification models & research</li>
+          <li><b>IoT Systems</b> — monitoring & device integration</li>
+          <li><b>Figma</b> — UI/UX design & prototyping</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Soft -->
+    <div class="box skill-card">
+      <div class="skill-icon"><i class="fa-solid fa-brain"></i></div>
+
+      <div class="skill-content">
+        <strong>Professional Skills</strong>
+
+        <div class="skill-tags">
+          <span>Problem Solving</span>
+          <span>Project Management</span>
+          <span>Adaptability</span>
+          <span>Collaboration</span>
+        </div>
+
+        <ul class="skill-list">
+          <li><b>Problem Solving</b> — debugging & optimization</li>
+          <li><b>Project Management</b> — managing development cycles</li>
+          <li><b>Adaptability</b> — mobile, IoT, and ML domains</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  </section>
+
+  <section id="ongoing-learning">
+  <h2>Professional Development & Learning</h2>
+  <div class="grid">
+    <div class="box learning-card">
+      <div class="learning-header">
+        <i class="fa-brands fa-google" style="color: #4285F4; font-size: 1.5rem;"></i>
+        <div>
+          <strong>Google Advanced Data Analytics</strong>
+          <p>Professional Certificate via Coursera</p>
+        </div>
+      </div>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 75%;"></div>
+      </div>
+      <span class="progress-label">75% Completed — Expected June 2026</span>
+    </div>
+
+    <div class="box learning-card">
+      <div class="learning-header">
+        <i class="fa-brands fa-android" style="color: #3DDC84; font-size: 1.5rem;"></i>
+        <div>
+          <strong>Modern Android App Architecture</strong>
+          <p>Google Developers Learning Path</p>
+        </div>
+      </div>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 90%;"></div>
+      </div>
+      <span class="progress-label">90% Completed — Focus on KMP & Compose</span>
+    </div>
+  </div>
+</section>
+
+<footer>©<span id="year"></span> Feny Rahmasari</footer>
+
+<!-- Certificate Modal -->
+<div class="modal-overlay" id="certificateModal">
+  <div class="modal">
+    <div class="modal-header">
+      <strong>ICIST 2024 Certificate</strong>
+      <button onclick="closeCertificate()">✕</button>
+    </div>
+    <iframe 
+  src="certificate/CERTIFICATE ICIST 2024.pdf#view=FitH&zoom=1000"
+  type="application/pdf">
+</iframe>
+  </div>
+</div>
+</div>
+<script>
+  // stepper animation (on scroll)
+  const steps = document.querySelectorAll('.step');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+  steps.forEach(step => observer.observe(step));
+
+  // carousel
+  let idx=0;const t=document.getElementById('carouselTrack');
+  function update(){t.style.transform=`translateX(-${idx*100}%)`}
+  function next(){idx=(idx+1)%4;update()}
+  function prev(){idx=(idx-1+4)%4;update()}
+
+  // theme toggle
+  const toggle = document.getElementById('themeToggle');
+  const body = document.body;
+
+  toggle.addEventListener('click', () => {
+    body.classList.toggle('dark');
+    const isDark = body.classList.contains('dark');
+    toggle.innerHTML = isDark ? '☀️' : '🌙';
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+  });
+
+  // Portfolio
+  const track = document.getElementById('portfolioTrack');
+  const cards = document.querySelectorAll('.portfolio-card');
+
+  const slider = document.querySelector('.portfolio-slider');
+
+  let currentIdx = 0;
+
+  function getVisibleCount() {
+    if (window.innerWidth <= 600) return 1;
+    if (window.innerWidth <= 900) return 2;
+    return 3;
+  }
+
+  function slideNext() {
+        if (currentIdx < cards.length - 2) {
+            currentIdx++;
+            updateSlider();
+        }
+    }
+
+    function slidePrev() {
+        if (currentIdx > 0) {
+            currentIdx--;
+            updateSlider();
+        }
+    }
+
+    function updateSlider() {
+        const width = cards[0].offsetWidth + 20;
+        track.style.transform = `translateX(-${currentIdx * width}px)`;
+    }
+
+  window.addEventListener('resize', () => {
+    currentIdx = 0;
+    updateSlider();
+  });
+
+  function startAutoScroll() {
+    autoScrollInterval = setInterval(() => {
+      const maxIndex = cards.length - getVisibleCount();
+
+      if (currentIdx < maxIndex) {
+        currentIdx++;
+      } else {
+        currentIdx = 0; // reset to start (loop)
+      }
+
+      updateSlider();
+    }, 3000); // speed (3 seconds)
+  }
+
+  function stopAutoScroll() {
+    clearInterval(autoScrollInterval);
+  }
+
+  // Start when page loads
+  startAutoScroll();
+
+  slider.addEventListener('mouseenter', stopAutoScroll);
+  slider.addEventListener('mouseleave', startAutoScroll);
+
+  // footer year
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
